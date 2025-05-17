@@ -26,3 +26,7 @@ A comprehensive ASP.NET Core application for managing students, teachers, classe
 4. Open the package Manager Console and run the command 'Update-database`appsettings.json`
 6. Start the application
 7. some api endpoint need authrization , first add role then  register new user and set the role as Admin, then login and use the endpoints
+
+### Note
+I forget to link the relashinship between Users with teacher and student table
+I don't notice the the need of creating Profile endpoint required
