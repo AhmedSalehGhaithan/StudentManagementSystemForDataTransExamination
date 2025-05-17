@@ -4,8 +4,8 @@ A comprehensive ASP.NET Core application for managing students, teachers, classe
 
 ## Key Features
 
-- 🏫 **User Management**: Integrated with ASP.NET Core Identity for authentication (Students, Teachers, Admins)
-- 📚 **Academic Management**: Track classes, subjects, and student grades
+- 🏫 **User Management**: Integrated with ASP.NET Core Identity for authentication (Students, Teachers,...)
+- 📚 **School Management**: Track classes, subjects, and student grades
 - 🧑‍🏫 **Teacher Portal**: Manage teaching assignments and schedules
 - 📅 **Schedule System**: Organize class timetables and room allocations
 - 📊 **Grade Tracking**: Record and analyze student performance
@@ -13,15 +13,16 @@ A comprehensive ASP.NET Core application for managing students, teachers, classe
 
 ## Technology Stack
 
-- Backend: ASP.NET Core 7, Entity Framework Core
+- Backend: ASP.NET Core 9, Entity Framework Core
 - Authentication: JWT, Refresh Tokens
-- Database: SQL Server (or PostgreSQL via configuration)
+- Database: SQL Server 
 - Architecture: Clean Architecture, CQRS Pattern
-- Testing: xUnit (optional)
 
 ## Getting Started
 
 1. Clone the repository
-2. Configure your database connection in `appsettings.json`
-3. Run migrations to set up the database
-4. Start the application
+2. Configure your database connection
+3. Rebuild the project to install package needed
+4. Open the package Manager Console and run the command 'Update-database`appsettings.json`
+6. Start the application
+7. some api endpoint need authrization , first add role then  register new user and set the role as Admin, then login and use the endpoints
