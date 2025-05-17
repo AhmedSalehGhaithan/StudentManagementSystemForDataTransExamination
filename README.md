@@ -28,5 +28,5 @@ A comprehensive ASP.NET Core application for managing students, teachers, classe
 7. some api endpoint need authrization , first add role then  register new user and set the role as Admin, then login and use the endpoints
 
 ### Note
-I forget to link the relashinship between Users with teacher and student table
-I don't notice the the need of creating Profile endpoint required
+- I forget to link the relashinship between Users with teacher and student table
+- I don't notice the the need of creating Profile endpoint required
