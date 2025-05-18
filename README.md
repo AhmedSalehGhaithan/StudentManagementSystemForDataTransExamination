@@ -23,7 +23,7 @@ A comprehensive ASP.NET Core application for managing students, teachers, classe
 1. Clone the repository
 2. Configure your database connection
 3. Rebuild the project to install package needed
-4. Open the package Manager Console and run the command 'Update-database`appsettings.json`
+4. Open the package Manager Console and run the command `Update-database`
 6. Start the application
 7. some api endpoint need authrization , first add role then  register new user and set the role as Admin, then login and use the endpoints
 
